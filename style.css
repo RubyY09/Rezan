@@ -60,25 +60,25 @@ html{
 
 header img{
     height: 3rem;
-    
+    float: left;
 
 }
 header{ 
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    
     padding: 0rem 1rem;
-    align-items: center;
-   
+    align-self: center;
+  
 }
 
 header a{
     color: #335F8A;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 2rem;
     border-radius: 2rem;
-
+float: right;
    transition: all 0.3s ease;
    padding: 8px 22px;
     
@@ -557,7 +557,7 @@ font-family: "Archivo Black", sans-serif;
     margin-left: 13rem;
  }
 
-.serv .ligne2 a , .page-propos .ligne2 a{
+.serv .ligne2 a , .page-propos .ligne2 a ,.page-contact .ligne2 a{
     font-size: 1.8rem;
     text-align: center;
     align-self: center;
@@ -574,7 +574,7 @@ font-family: "Archivo Black", sans-serif;
  .serv footer i:hover{
     transform: scale(1.3);
 }
-.serv footer p , .page-propos footer p{
+.serv footer p , .page-propos footer p , .page-contact footer p{
     padding-top: 0rem;
 }
 
@@ -692,4 +692,1164 @@ font-family: "Archivo Black", sans-serif;
 .recrute a:hover{
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
+}
+
+
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+/* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact *//* page contact */
+
+.page-contact{
+    display: grid ;
+    grid-template-rows: 10vh 35vh 70vh 75vh 25vh;
+  
+    grid-template-columns:  100%;
+}
+
+.page-contact header{
+    grid-row: 1;
+    
+}
+.page-contact .titre-contact{
+    grid-row: 2; background-image: url(medias/contact.png);
+   height: 35vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-content: center;
+   
+}
+.adress{
+    display: grid;
+    grid-row: 3;
+   grid-template-columns: 1fr 1fr;
+   
+}
+
+.page-contact footer{
+   grid-row: 5;
+ 
+}
+
+.page-contact h1{
+    font-family: "Archivo Black", sans-serif;
+    background-color: #2F4558;
+    font-size: 3.5rem;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    width: 50rem;
+    align-content: center;
+    text-align: center;
+    border-radius: 3rem;
+    justify-self: center;
+   
+
+
+
+    
+    
+}
+.detail{
+    
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap : 1rem ; 
+    
+    padding: 5rem;
+   
+justify-items: end;
+
+}
+
+.form{
+    grid-column: 2;
+    
+}
+.detail .facebook , .detail .nume , .detail .email , .detail .location , .detail .insta ,.detail .pinterest{
+    background-color: #f1f1f1;
+width: 80%;
+
+border-radius: 1rem;
+display: flex;
+flex-direction: column;
+text-align: center;
+height: 22vh;
+justify-content: center;
+
+
+}
+.detail .nume{
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.email{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+b{
+     font-family: "Archivo", sans-serif;
+     font-size: 1.2rem;
+     color: #2F4558;
+}
+
+.detail p{color: #2F4558;
+
+}
+
+.res {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.res i{
+    color: #2F4558;
+}
+
+.res b{
+    margin-top: 1rem;
+}
+
+.detail .facebook p , .detail .nume p , .detail .email p , .detail .location p , .detail .insta p ,.detail .pinterest p {
+    font-size: 1srem;
+    padding: rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.form{
+    padding: 5rem;
+    
+}
+.form h2{
+    color: #2F4558;
+}
+ label{
+    color: #2F4558;
+padding-top: 1.4rem;
+padding-bottom: 0.4rem;
+ }
+
+ input{
+    width: 80%;
+    height: 4rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+ }
+
+ textarea{
+    width: 80%;
+    height: 4rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+        
+ }
+ ::placeholder{
+   color: #778da5;
+   font-family: "Varela", sans-serif;
+ }
+
+ .gpps iframe{ width: 100%;}
+.gpps{
+    grid-row: 4;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+
+.but {
+    background-color:#f8641c ;
+    color: white;
+    font-family: "Varela", sans-serif;
+    font-size: 1.3rem;
+    
+    margin-top: 3rem;
+    
+}
+
+
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+/* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation *//* page-realisation */
+
+
+.real{
+    display: grid;
+     grid-template-rows: 7vh 63vh 5vh;
+    background-color: #ffffff;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.real header{
+    grid-column: 1/5;
+    grid-row: 1;
+}
+ .real footer{
+    background-color: rgb(141, 73, 73);
+    grid-row: 3;
+    grid-column: 1/5;
+ }
+ 
+ 
+
+
+
+
+
+.real footer a{
+    color: #2F4558;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.real footer a:hover{
+    transform: scale(1.3);
+}
+.real .ligne1{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1 2rem;
+    border-bottom: solid 2px #2F4558;
+    width: 90%;
+    justify-self: center;
+}
+.real footer p{
+    color: #2F4558;
+    text-align: center;
+    font-weight: 500;
+  
+    font-size: 1.2rem;
+
+}
+
+.serv .ligne2 a , .page-propos .ligne2 a ,.page-contact .ligne2 a , .real .ligne2 a{
+    font-size: 1.8rem;
+    text-align: center;
+    align-self: center;
+    margin: 0 15px;
+ }
+ 
+ .real .ligne2{
+  text-align: center;
+    justify-self: center;
+    margin-top: 1rem;
+ }
+ .real footer i:hover{
+    transform: scale(1.3);
+}
+.real footer p , .page-propos footer p , .page-contact footer p{
+    padding-top: 0rem;
+}
+
+.real{
+    background-image: url(medias/courbe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+     
+}
+
+.page-real .bol img{
+    height: 35rem;
+
+}
+
+.page-real{
+    display: flex;
+    justify-content: center;
+    grid-column: 1/5;
+    margin-top: 5rem;
+    
+}
+
+.page-real h1{
+        font-family: "Archivo Black", sans-serif;
+   
+    font-size: 3.5rem;
+    color: #2F4558;
+    
+   
+    
+    
+   
+}
+
+.page-real p{
+    font-family: "Varela", sans-serif;
+    font-size: 1.4rem;
+    color: #2F4558;
+    font-weight: 400;
+}
+
+.page-real .titre-real {
+width: 40%;
+align-self: center;
+}
+
+
+.page-real a{
+    
+    text-decoration: none;
+    background-color: #2F4558;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1vh 3vh;
+    border-radius: 3rem;
+    width: 20%;
+    text-align: center;
+  
+    transition: all 0.32s ease;
+}
+
+
+.page-real a:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.titre-real *{
+margin-bottom: 3rem;
+
+}
+
+
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+/* autre page real *//* autre page real *//* autre page real *//* autre page real *//* autre page real */
+
+.realis{
+    display: grid;
+    grid-template-columns: 75% 25% ;
+    grid-template-rows: 10vh 35vh 35vh 0vh;
+   
+    
+}
+
+
+.realis .unreal{
+    grid-row: 2/4;
+    grid-column: 1;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    background-image: url(medias/couple-appreciant-la-nourriture-au-restaurant\ 1\ \(1\).png);
+background-size: cover;
+padding: 2rem;
+align-content: end;
+
+}
+.deuxreal{
+    grid-row: 2;
+    grid-column: 2;
+    margin: 2rem 3rem 0rem 0rem;
+    border-radius: 1.5rem;
+    background-image: url(medias/bol\ avec\ fond\ bleu.png);
+    background-size: cover;
+
+}
+
+.troisreal{
+    grid-row: 3;
+    grid-column: 2;
+    
+    border-radius: 1.5rem;
+    margin: 2rem 3rem 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.realis h1{
+        font-family: "Archivo Black", sans-serif;
+   
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    
+   
+    
+    
+   
+}
+
+.realis h2{
+        font-family: "Archivo Black", sans-serif;
+   
+    font-size: 1.8rem;
+    color: #2F4558;
+    
+    
+   
+    
+    
+   
+}
+
+.realis p{
+    font-family: "Varela", sans-serif;
+    font-size: 1.4rem;
+    color: #2F4558;
+    font-weight: 400;
+}
+
+
+
+
+.realis .unreal a{
+    
+    text-decoration: none;
+    background-color: #2F4558;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1vh 6vh;
+    border-radius: 3rem;
+    width: 20%;
+    text-align: center;
+ 
+    transition: all 0.32s ease;
+}
+
+.realis b{
+    border: solid 2px #2F4558;
+    padding: 0.4rem 1rem;
+    border-radius: 10rem;
+      font-family: "Varela", sans-serif;
+      margin-right: 1rem;
+
+}
+
+.realis footer a{
+    
+    text-decoration: none;
+    background-color: #2F4558;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1vh 3vh;
+    border-radius: 3rem;
+    width: 20%;
+    text-align: center;
+  
+    transition: all 0.32s ease;
+}
+
+
+
+.realis footer p{
+    color: #ffffff;
+}
+
+.unreal p {
+      background: rgba(255, 255, 255, 0.1); /* Couleur semi-transparente */
+  backdrop-filter: blur(10px);          /* Flou de l’arrière-plan */
+  -webkit-backdrop-filter: blur(10px);  /* Compatibilité Safari */
+  color: white;
+  border-radius: 16px;                  /* Coins arrondis */
+  padding: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+/* media accueil *//* media accueil *//* media accueil *//* media accueil *//* media accueil */
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  .page-index {
+    display: block;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  header a {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    padding: 6px 16px;
+    display: inline-block;
+  }
+
+  header img {
+    height: 2.5rem;
+  }
+
+  .bienvenue {
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+  }
+  .article1 h2{
+    font-size: 1.7rem;
+  }
+
+  .bienvenue h1 {
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem;
+    width: 90%;
+    border-radius: 2rem;
+  }
+  .article1 img{
+    height: 7rem;
+  }
+  .article1 p{
+    font-size: 1rem;
+  }
+ .article1 a{
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+ }
+
+  .recette {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+.vague{
+
+margin-top: 5vh;
+margin-bottom: 5vh;
+
+}
+  .article1,
+  .article2,
+  footer {
+    
+    margin: 0;
+  }
+
+  .article2 {
+    display: flex;
+    flex-direction: column;
+   
+   
+    padding-left: 1rem;
+  }
+
+  .article2 img {
+    max-width: 100%;
+    height: 45vh;
+    margin-top: 1rem;
+  
+  }
+  .article2 h3{
+    font-size: 1.4rem;
+  }
+
+  .article2 p{
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .article2 a{
+    font-size: 1.1rem;
+    margin: 0;
+    width: 60%;
+  }
+
+  .reseau {
+    width: 70%;
+    height: 50%;
+   
+  }
+  .histoire{
+    width: 100%;
+    height: 40vh;
+    padding-left: 1rem;
+  }
+  
+.contact{
+    padding: 1.5rem;
+    margin-top: 0;
+}
+  .contact .reseaux {
+    display: flex;
+    justify-content: center;
+    
+    margin: 0rem 0rem;
+  }
+  .contact h3{
+    font-size: 1.3rem;
+  }
+  .contact .bouton{
+     font-size: 1.1rem;
+    padding: 1rem 2rem;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+    margin-bottom: 5vh;
+  }
+
+  .gps h3{
+    font-size: 1.2rem;
+  }
+  footer img{
+    padding-left: 2rem;
+  }
+
+  footer .ligne1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  
+  }
+
+  footer a {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }}
+
+  footer{
+    padding: 0 3rem;
+  }
+
+  .nouille{
+    align-self: center;
+  }
+
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+/* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire *//* media histoire */
+
+
+ @media screen and (max-width: 468px){
+
+    .page-propos{
+  display: flex;
+  flex-direction: column;
+}
+
+.cheff {
+  order: 3;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+.famille {
+  order: 2;
+  margin-top: 0;
+ 
+}
+    
+.chef{
+    height: 20vh;
+}
+    
+
+
+
+    .cheff img {
+        height: 40vh;
+        
+    }
+
+    .famille {
+        padding: 15px;
+        font-size: 1rem;
+        
+    }
+    .famille p{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .famille h1 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .recrute {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        text-align: center;
+        order: 5;
+        height: 61vh;
+        padding: 0;
+       
+    }
+    .recrute h2{
+        font-size: 1.5rem;
+    }
+    .recrute a{
+        margin-bottom: 5rem;
+    }
+
+    .recrute div {
+        margin-bottom: 15px;
+       
+    }
+
+    .recrute img {
+        width: 80%;
+        height: auto;
+        max-width: 300px;
+        justify-self: flex-end;
+    } 
+    footer {
+        order: 6;
+    }}
+
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+/* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */ /* media de la page contact  */
+
+    @media screen and (max-width: 468px) {
+    .page-contact{
+        display: block;
+
+    }
+   
+    .titre-contact h1 {
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    
+
+    .adress {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+height: 115vh;
+    }
+  
+
+
+    .adress .detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 12px;
+        align-self: center;
+        justify-items: center;
+        margin-top: 1rem;
+        grid-template-rows: 1fr 1fr;
+    }
+    .detail b{
+        font-size: 1rem;
+    }
+    .detail p{
+        font-size: 0.8rem;
+    }
+
+    .adress .form {
+       
+        padding: 2rem;
+        text-align: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+
+    .adress .form form input,
+    .adress .form form textarea {
+        width: 100%;
+        font-size: 0.8rem;
+        
+        padding-left: 10px;
+    }
+
+   
+
+    .adress .form form .but {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 1rem;
+    }
+
+    .gpps iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    footer .ligne1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 0.9rem;
+        padding: 15px 0;
+    }
+
+    footer .ligne2 p {
+        font-size: 0.85rem;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .detail .facebook , .detail .nume , .detail .email , .detail .location , .detail .insta ,.detail .pinterest{
+height: 17vh;
+width: 100%;
+    }
+}
+
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+/* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations *//* media de la page réalisations */
+
+  @media screen and (max-width: 468px){
+    header img{
+    height: 3rem;
+   
+
+}
+
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    align-items: center;
+  
+}
+header a{
+    float: none;
+}
+
+.realis{
+    display: block;
+}
+
+.unreal{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unreal p{
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.unreal h1{
+    font-size: 1.9rem;
+}
+.realis .unreal a{
+    width: 50%;
+}
+
+.deuxreal{
+    display: none;
+}
+
+
+.troisreal{
+    padding: 0 2rem;
+}
+.troisreal h2{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.troisreal p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.troisreal b{
+    font-size: 1rem;
+}
+
+
+.realis footer a {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+  }
+
+ .realis footer p {
+    font-size: 0.8rem;
+  }
+
+ .realis footer{
+    padding: 0 3rem;
+  }
+
+
+
+.realis footer img{
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+ .realis footer .ligne1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 0;
+  
+  }
+
+
+  }
+
+
+  /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+   /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+    /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+     /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+      /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+       /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+        /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+         /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+          /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+           /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+            /* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service *//* media de la page service */
+
+@media screen and (max-width: 468px){
+.serv{
+    display: block;
+}
+#deux .nouille , #trois .nouille , #un .nouille{
+    display: flex;
+    flex-direction: column;
+}
+#deux .numero , #trois .numero , #un .numero{
+    display: flex;
+    flex-direction: row;
+    order: 2;
+   
+} 
+.numero img{
+    display: none;
+}
+.numero{
+    justify-content: space-evenly;
+    padding: 0;
+}
+#deux .numero p , #un .numero p , #trois .numero p{
+    font-size: 2.8em;
+}
+    
+
+#deux article , #un article , #trois article{
+    order: 1;
+    align-self: center;
+}
+
+#deux article img , #un article img , #trois article img{
+    height: 20vh;
+}
+#deux .description ,#un .description , #trois .description{
+    order: 3;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+   align-self: center;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    
+}
+.description h1{
+    font-size: 2rem;
+
+}
+
+
+
+.serv footer .ligne1{
+    gap: 0;
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 468px){
+
+
+
+
+
+/* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+    background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #335F8A;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+  
+  
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #2F4558;
+  margin: 6px 0;
+}
+.sidenav header img{
+    height: 3rem;
+    
+
+}
+#menu{
+    display: none;
+}
+}
+@media screen and (min-width: 468px){
+    .sidenav{
+        display: none;
+       
+    }
+    .sidenav a:hover{
+        background-color: white;
+border: none;
+
+    }
+
+    #openBtn{
+        width: 1px;
+        display: nonek;
+        
+    }
 }
